@@ -2,6 +2,17 @@ import { render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import LoginPage from '@/app/login/page'
 
+const mockReplace = jest.fn()
+const mockRefresh = jest.fn()
+
+jest.mock('next/navigation', () => ({
+  useRouter: () => ({
+    replace: mockReplace,
+    refresh: mockRefresh,
+    push: jest.fn(),
+  }),
+}))
+
 // Mock fetch globally
 global.fetch = jest.fn()
 
@@ -10,6 +21,8 @@ const mockFetch = global.fetch as jest.Mock
 describe('LoginPage', () => {
   beforeEach(() => {
     mockFetch.mockReset()
+    mockReplace.mockReset()
+    mockRefresh.mockReset()
   })
 
   it('renders the login heading', () => {
@@ -55,6 +68,10 @@ describe('LoginPage', () => {
         }),
       }),
     )
+    await waitFor(() => {
+      expect(mockReplace).toHaveBeenCalledWith('/')
+      expect(mockRefresh).toHaveBeenCalled()
+    })
   })
 
   it('shows an error message on failed login', async () => {

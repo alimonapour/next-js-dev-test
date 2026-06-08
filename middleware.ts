@@ -14,7 +14,9 @@ export function middleware(request: NextRequest) {
 
   // Unauthenticated user trying to access a protected route → redirect to /login
   if (isProtected && !token) {
-    return NextResponse.redirect(new URL('/login', request.url))
+    const loginUrl = new URL('/login', request.url)
+    loginUrl.searchParams.set('next', pathname)
+    return NextResponse.redirect(loginUrl)
   }
 
   // Authenticated user trying to access /login → redirect to /

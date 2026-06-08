@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { LogIn, Eye, EyeOff, AlertCircle } from 'lucide-react'
 import Container from '@/components/ui/Container'
 import Card, { CardHeader, CardContent } from '@/components/ui/Card'
@@ -8,6 +9,7 @@ import Input from '@/components/ui/Input'
 import Button from '@/components/ui/Button'
 
 export default function LoginPage() {
+  const router = useRouter()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
@@ -25,7 +27,13 @@ export default function LoginPage() {
 
     if (!res.ok) {
       setError(data.message || 'Login failed')
+      return
     }
+
+    const nextParam = new URLSearchParams(window.location.search).get('next')
+    const target = nextParam && nextParam.startsWith('/') ? nextParam : '/'
+    router.replace(target)
+    router.refresh()
   }
 
   return (

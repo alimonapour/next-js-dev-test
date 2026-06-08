@@ -1,8 +1,8 @@
-'use client'
-
 import Link from 'next/link'
+import { cookies } from 'next/headers'
 import { ShoppingBag } from 'lucide-react'
 import CartLink from '@/components/CartLink'
+import LogoutButton from '@/components/LogoutButton'
 import ThemeToggle from '@/components/ThemeToggle'
 import Container from '@/components/ui/Container'
 import { cn } from '@/lib/cn'
@@ -11,10 +11,11 @@ const navLinks = [
   { href: '/', label: 'Products' },
   { href: '/cart', label: 'Cart' },
   { href: '/checkout', label: 'Checkout' },
-  { href: '/login', label: 'Login' },
 ]
 
-export default function SiteHeader() {
+export default async function SiteHeader() {
+  const isAuthed = Boolean((await cookies()).get('token')?.value)
+
   return (
     <header className='sticky top-0 z-50 border-b border-border bg-surface/80 backdrop-blur-md'>
       <Container>
@@ -42,6 +43,19 @@ export default function SiteHeader() {
                 {link.label}
               </Link>
             ))}
+            {isAuthed ? (
+              <LogoutButton />
+            ) : (
+              <Link
+                href='/login'
+                className={cn(
+                  'rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground',
+                  'transition-base hover:bg-muted hover:text-foreground',
+                )}
+              >
+                Login
+              </Link>
+            )}
           </nav>
 
           <div className='flex items-center gap-1'>
