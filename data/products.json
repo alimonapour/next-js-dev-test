@@ -1,0 +1,304 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Earbuds",
+      "price": 79.99,
+      "description": "Noise-cancelling wireless earbuds with 24-hour battery life"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 249.99,
+      "description": "Fitness tracking smartwatch with heart rate monitor and GPS"
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "price": 59.95,
+      "description": "Portable waterproof speaker with 360° sound"
+    },
+    {
+      "id": 4,
+      "name": "Mechanical Keyboard",
+      "price": 129.99,
+      "description": "RGB mechanical keyboard with customizable keys"
+    },
+    {
+      "id": 5,
+      "name": "Gaming Mouse",
+      "price": 89.99,
+      "description": "High-precision gaming mouse with programmable buttons"
+    },
+    {
+      "id": 6,
+      "name": "4K Monitor",
+      "price": 399.99,
+      "description": "27-inch 4K UHD display with HDR support"
+    },
+    {
+      "id": 7,
+      "name": "Wireless Charger",
+      "price": 34.99,
+      "description": "Fast wireless charging pad for smartphones"
+    },
+    {
+      "id": 8,
+      "name": "Noise Cancelling Headphones",
+      "price": 299.99,
+      "description": "Over-ear headphones with active noise cancellation"
+    },
+    {
+      "id": 9,
+      "name": "External SSD",
+      "price": 149.99,
+      "description": "1TB portable SSD with USB-C connectivity"
+    },
+    {
+      "id": 10,
+      "name": "Webcam",
+      "price": 89.99,
+      "description": "1080p HD webcam with autofocus and microphone"
+    },
+    {
+      "id": 11,
+      "name": "Smart Bulb",
+      "price": 24.99,
+      "description": "WiFi enabled color-changing smart light bulb"
+    },
+    {
+      "id": 12,
+      "name": "Power Bank",
+      "price": 45.99,
+      "description": "20000mAh portable charger with fast charging"
+    },
+    {
+      "id": 13,
+      "name": "Laptop Stand",
+      "price": 39.99,
+      "description": "Adjustable aluminum laptop stand for ergonomic setup"
+    },
+    {
+      "id": 14,
+      "name": "USB-C Hub",
+      "price": 69.99,
+      "description": "7-in-1 docking station with HDMI and USB ports"
+    },
+    {
+      "id": 15,
+      "name": "Smart Thermostat",
+      "price": 199.99,
+      "description": "WiFi enabled thermostat with energy saving features"
+    },
+    {
+      "id": 16,
+      "name": "Fitness Tracker",
+      "price": 79.99,
+      "description": "Waterproof activity tracker with sleep monitoring"
+    },
+    {
+      "id": 17,
+      "name": "Wireless Mouse",
+      "price": 49.99,
+      "description": "Ergonomic wireless mouse with silent clicking"
+    },
+    {
+      "id": 18,
+      "name": "Desk Lamp",
+      "price": 59.99,
+      "description": "LED desk lamp with adjustable brightness and color temperature"
+    },
+    {
+      "id": 19,
+      "name": "Action Camera",
+      "price": 199.99,
+      "description": "4K waterproof action camera for sports and adventures"
+    },
+    {
+      "id": 20,
+      "name": "Smart Plug",
+      "price": 19.99,
+      "description": "WiFi smart plug for remote control of appliances"
+    },
+    {
+      "id": 21,
+      "name": "Graphic Tablet",
+      "price": 149.99,
+      "description": "Digital drawing tablet with pressure-sensitive pen"
+    },
+    {
+      "id": 22,
+      "name": "Portable Monitor",
+      "price": 229.99,
+      "description": "15.6-inch portable USB-C monitor for on-the-go work"
+    },
+    {
+      "id": 23,
+      "name": "Gaming Headset",
+      "price": 129.99,
+      "description": "Surround sound gaming headset with noise-cancelling mic"
+    },
+    {
+      "id": 24,
+      "name": "Smart Scale",
+      "price": 89.99,
+      "description": "Body composition scale with smartphone connectivity"
+    },
+    {
+      "id": 25,
+      "name": "Wireless Router",
+      "price": 159.99,
+      "description": "WiFi 6 router with mesh network capability"
+    },
+    {
+      "id": 26,
+      "name": "Electric Kettle",
+      "price": 49.99,
+      "description": "Smart kettle with temperature control and keep warm function"
+    },
+    {
+      "id": 27,
+      "name": "Desk Organizer",
+      "price": 29.99,
+      "description": "Multi-compartment desk organizer with cable management"
+    },
+    {
+      "id": 28,
+      "name": "Bluetooth Earbuds",
+      "price": 39.99,
+      "description": "Affordable wireless earbuds with clear call quality"
+    },
+    {
+      "id": 29,
+      "name": "Security Camera",
+      "price": 119.99,
+      "description": "Indoor/outdoor security camera with night vision"
+    },
+    {
+      "id": 30,
+      "name": "Laptop Backpack",
+      "price": 79.99,
+      "description": "Water-resistant backpack with dedicated laptop compartment"
+    },
+    {
+      "id": 31,
+      "name": "Smart Doorbell",
+      "price": 179.99,
+      "description": "Video doorbell with motion detection and two-way audio"
+    },
+    {
+      "id": 32,
+      "name": "Wireless Presenter",
+      "price": 34.99,
+      "description": "Presentation remote with laser pointer and slide control"
+    },
+    {
+      "id": 33,
+      "name": "Desk Mat",
+      "price": 24.99,
+      "description": "Large desk pad with leather surface and stitched edges"
+    },
+    {
+      "id": 34,
+      "name": "Phone Gimbal",
+      "price": 99.99,
+      "description": "3-axis stabilizer for smooth smartphone videography"
+    },
+    {
+      "id": 35,
+      "name": "USB Microphone",
+      "price": 129.99,
+      "description": "Studio-quality USB condenser microphone for recording"
+    },
+    {
+      "id": 36,
+      "name": "Smart Lock",
+      "price": 249.99,
+      "description": "Keyless entry smart lock with fingerprint and app control"
+    },
+    {
+      "id": 37,
+      "name": "Portable Projector",
+      "price": 299.99,
+      "description": "Mini projector with built-in speaker and HDMI connectivity"
+    },
+    {
+      "id": 38,
+      "name": "Ergonomic Chair",
+      "price": 349.99,
+      "description": "Office chair with lumbar support and adjustable features"
+    },
+    {
+      "id": 39,
+      "name": "Wireless Charging Stand",
+      "price": 44.99,
+      "description": "Adjustable stand for simultaneous phone and watch charging"
+    },
+    {
+      "id": 40,
+      "name": "Digital Photo Frame",
+      "price": 129.99,
+      "description": "10-inch digital frame with cloud connectivity"
+    },
+    {
+      "id": 41,
+      "name": "Smart Garden",
+      "price": 89.99,
+      "description": "Indoor herb garden with automated watering system"
+    },
+    {
+      "id": 42,
+      "name": "Bluetooth Receiver",
+      "price": 19.99,
+      "description": "Audio receiver to add Bluetooth to traditional speakers"
+    },
+    {
+      "id": 43,
+      "name": "Voice Assistant",
+      "price": 99.99,
+      "description": "Smart speaker with voice control and home automation"
+    },
+    {
+      "id": 44,
+      "name": "Cable Organizer",
+      "price": 14.99,
+      "description": "Set of reusable cable ties and management clips"
+    },
+    {
+      "id": 45,
+      "name": "Wireless Game Controller",
+      "price": 69.99,
+      "description": "Bluetooth game controller for mobile and PC gaming"
+    },
+    {
+      "id": 46,
+      "name": "Smart Ring",
+      "price": 199.99,
+      "description": "Wearable fitness and sleep tracking ring"
+    },
+    {
+      "id": 47,
+      "name": "Portable Blender",
+      "price": 59.99,
+      "description": "USB rechargeable personal blender for smoothies"
+    },
+    {
+      "id": 48,
+      "name": "Desk Treadmill",
+      "price": 499.99,
+      "description": "Under-desk walking treadmill for active workstations"
+    },
+    {
+      "id": 49,
+      "name": "Smart Mug",
+      "price": 79.99,
+      "description": "Temperature control mug that keeps drinks hot for hours"
+    },
+    {
+      "id": 50,
+      "name": "3D Printer Pen",
+      "price": 49.99,
+      "description": "Handheld 3D printing pen for creative designs"
+    }
+  ]
+}
